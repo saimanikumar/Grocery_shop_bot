@@ -5,3 +5,5 @@ pyTelegramBotAPI==4.11.0
 requests==2.30.0
 telebot==0.0.5
 urllib3==2.0.2
+flask
+request
