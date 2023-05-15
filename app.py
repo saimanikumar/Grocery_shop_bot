@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 from inventory_items import inventory
-
+from secret import TOKEN, SHOPKEEPERS_CHAT_ID
 def main():
     # Create the bot and get the updater
     bot = telebot.TeleBot("6242571874:AAHzN6kF15BwXgJT4KooFGDuwfLjvGlbPeo")
