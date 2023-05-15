@@ -4,11 +4,11 @@ from inventory_items import inventory
 from secret import TOKEN, SHOPKEEPERS_CHAT_ID
 def main():
     # Create the bot and get the updater
-    bot = telebot.TeleBot("6242571874:AAHzN6kF15BwXgJT4KooFGDuwfLjvGlbPeo")
+    bot = telebot.TeleBot(TOKEN)
     cart = []
     
     # shopkeeper's chat id
-    shopkeeper_chat_id = 1719543318
+    shopkeeper_chat_id = SHOPKEEPERS_CHAT_ID
 
     @bot.message_handler(commands=['start'])
     def start(message):
