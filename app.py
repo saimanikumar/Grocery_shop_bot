@@ -6,7 +6,7 @@ import os
 from flask import Flask, request
 
 
-TOKEN = "6242571874:AAF31zhUoPA3u68ANF-klRXymoBQuUtjlkY"
+TOKEN = "6242571874:AAHzN6kF15BwXgJT4KooFGDuwfLjvGlbPeo"
 
 bot = telebot.TeleBot(TOKEN)
 server = Flask(__name__)
@@ -213,7 +213,7 @@ def getMessage():
 @server.route("/")
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url="https://grocery-shop-bot.onrender.com" + TOKEN)
+    bot.set_webhook(url="https://api.render.com/deploy/srv-chha0hm4dad31th84olg?key=Wmf-W2E13Qg" + TOKEN)
     return "!", 200
 
 if __name__ == "__main__":
