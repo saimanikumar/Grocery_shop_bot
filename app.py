@@ -7,7 +7,7 @@ def main():
     # Create the bot and get the updater
     TOKEN = os.getenv("API_KEY")
     bot = telebot.TeleBot(TOKEN)
-    bot.set_webhook()
+#     bot.set_webhook()
     cart = []
 
     shopkeeper_chat_id = os.getenv("SHOPKEEPER_CHAT_ID")
@@ -199,7 +199,8 @@ def main():
         return True
 
     # Start the bot
-    bot.infinity_polling()
+#     bot.infinity_polling()
+    bot.polling()
 
 
 if __name__ == "__main__":
