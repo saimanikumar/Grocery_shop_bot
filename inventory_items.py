@@ -1,0 +1,32 @@
+
+
+inventory = [
+    
+            {'section': 'Cereals',           'name': 'Rice',         'price': 50.0, 'quantity': 100},
+            {'section': 'Cereals',           'name': 'Wheat',        'price': 40.0, 'quantity': 80},
+            {'section': 'Cereals',           'name': 'Oats',         'price': 60.0, 'quantity': 50},
+            {'section': 'Cereals',           'name': 'Cornflakes',   'price': 70.0, 'quantity': 60},
+            {'section': 'Cereals',           'name': 'Muesli',       'price': 80.0, 'quantity': 40},
+            {'section': 'Cereals',           'name': 'Barley',       'price': 30.0, 'quantity': 70},
+            {'section': 'Cereals',           'name': 'Quinoa',       'price': 100.0, 'quantity': 30},
+            {'section': 'Cereals',           'name': 'Buckwheat',    'price': 90.0, 'quantity': 50},
+            {'section': 'Cereals',           'name': 'Millet',       'price': 35.0, 'quantity': 60},
+            {'section': 'Lentils',           'name': 'Toor Dal',     'price': 80.0, 'quantity': 70},
+            {'section': 'Lentils',           'name': 'Moong Dal',    'price': 70.0, 'quantity': 60},
+            {'section': 'Lentils',           'name': 'Chana Dal',    'price': 60.0, 'quantity': 50},
+            {'section': 'Lentils',           'name': 'Urad Dal',     'price': 90.0, 'quantity': 40},
+            {'section': 'Lentils',           'name': 'Masoor Dal',   'price': 75.0, 'quantity': 60},
+            {'section': 'Lentils',           'name': 'Red Lentils',  'price': 85.0, 'quantity': 30},
+            {'section': 'Lentils',           'name': 'Black Lentils','price': 95.0, 'quantity': 50},
+            {'section': 'Lentils',           'name': 'Green Gram',   'price': 65.0, 'quantity': 70},
+            {'section': 'Monthly Essentials','name': 'Cooking Oil',  'price': 120.0, 'quantity': 50},
+            {'section': 'Monthly Essentials','name': 'Sugar',        'price': 40.0, 'quantity': 100},
+            {'section': 'Monthly Essentials','name': 'Salt',         'price': 20.0, 'quantity': 150},
+            {'section': 'Monthly Essentials','name': 'Tea',          'price': 70.0, 'quantity': 80},
+            {'section': 'Monthly Essentials','name': 'Coffee',       'price': 90.0, 'quantity': 60},
+            {'section': 'Monthly Essentials','name': 'Milk',         'price': 30.0, 'quantity': 70},
+            {'section': 'Monthly Essentials','name': 'Eggs',         'price': 50.0, 'quantity': 90},
+            {'section': 'Monthly Essentials','name': 'Bread',        'price': 40.0, 'quantity': 100},
+            {'section': 'Monthly Essentials','name': 'Butter',       'price': 80.0, 'quantity': 50},
+            {'section': 'Monthly Essentials','name': 'Cheese',       'price': 100.0, 'quantity': 40},
+]
