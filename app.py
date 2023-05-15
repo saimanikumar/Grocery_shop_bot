@@ -213,7 +213,7 @@ def getMessage():
 @server.route("/")
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url="https://api.render.com/deploy/srv-chha0hm4dad31th84olg?key=Wmf-W2E13Qg" + TOKEN)
+    bot.set_webhook(url="https://grocery-shop-bot.onrender.com" + TOKEN)
     return "!", 200
 
 if __name__ == "__main__":
