@@ -1,13 +1,15 @@
 import telebot
 from telebot import types
 from inventory_items import inventory
+import os
 
 def main():
     # Create the bot and get the updater
-    bot = telebot.TeleBot("6242571874:AAF31zhUoPA3u68ANF-klRXymoBQuUtjlkY")
+    TOKEN = os.getenv("API_KEY")
+    bot = telebot.TeleBot(TOKEN)
     cart = []
 
-    shopkeeper_chat_id = 1719543318
+    shopkeeper_chat_id = os.getenv("SHOPKEEPER_CHAT_ID")
 
     @bot.message_handler(commands=['start'])
     def start(message):
