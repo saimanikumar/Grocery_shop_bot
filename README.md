@@ -8,9 +8,13 @@ Usage
 ✨ Use the following commands to interact with the bot:
 
 /start - Displays the available commands and instructions.
+
 /browse - Browse the inventory and add items to your cart.
+
 /cart - View your cart.
+
 /remove - Remove an item from your cart.
+
 /checkout - Proceed to checkout.
 
 📝 Follow the on-screen instructions to browse the inventory, add items to your cart, view the cart, remove items, and proceed to checkout.
